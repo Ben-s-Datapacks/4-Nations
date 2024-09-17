@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:iron_hoe"
+      },
+      "title": "Nation Of Nurture",
+      "description": "A nation based on farming. They harvest all types of crops and provide mass amounts of food.",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "required:thenations",
+    "criteria": {
+      "e": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }
+  

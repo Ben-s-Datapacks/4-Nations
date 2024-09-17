@@ -1,0 +1,2 @@
+effect give @s jump_boost 11 0 true
+execute as @s[tag=!Expedition3,tag=!Expedition4,scores={TimesJumped=1200..,TimesSlept=12..,TotalDistance=8000..,ItemsEnchanted=2..}] run function nations:expedition/levelswitch/2-3

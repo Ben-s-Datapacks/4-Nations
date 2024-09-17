@@ -1,0 +1,1 @@
+effect give @s haste 11 1 true

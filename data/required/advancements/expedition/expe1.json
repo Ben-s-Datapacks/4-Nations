@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:chainmail_boots"
+      },
+      "title": "Nomad",
+      "description": "Take your first steps to becoming self-sufficient.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "required:expedition/exper",
+    "criteria": {
+      "e": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

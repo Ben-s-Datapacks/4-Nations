@@ -1,0 +1,7 @@
+execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_hoe",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:netherite_hoe",Count:1b,tag:{Enchantments:[{id:"minecraft:fortune"}]}}}] run enchant @s fortune 2
+execute as @s[nbt={SelectedItem:{id:"minecraft:wooden_hoe",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:wooden_hoe",Count:1b,tag:{Enchantments:[{id:"minecraft:fortune"}]}}}] run enchant @s fortune 2
+execute as @s[nbt={SelectedItem:{id:"minecraft:stone_hoe",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:stone_hoe",Count:1b,tag:{Enchantments:[{id:"minecraft:fortune"}]}}}] run enchant @s fortune 2
+execute as @s[nbt={SelectedItem:{id:"minecraft:iron_hoe",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:iron_hoe",Count:1b,tag:{Enchantments:[{id:"minecraft:fortune"}]}}}] run enchant @s fortune 2
+execute as @s[nbt={SelectedItem:{id:"minecraft:golden_hoe",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:golden_hoe",Count:1b,tag:{Enchantments:[{id:"minecraft:fortune"}]}}}] run enchant @s fortune 2
+execute as @s[nbt={SelectedItem:{id:"minecraft:diamond_hoe",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:diamond_hoe",Count:1b,tag:{Enchantments:[{id:"minecraft:fortune"}]}}}] run enchant @s fortune 2
+execute as @s[tag=!Nurture3,scores={BakePotato=256..,BreadMade=128..,SusStews=32..,CookiesCrafted=16..}] run function nations:nurture/levelswitch/2-3

@@ -1,0 +1,13 @@
+execute as @s[nbt={SelectedItem:{id:"minecraft:wooden_pickaxe",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:fortune",lvl:1s}]}}}] run function nations:prospect/fortune/f1wood
+execute as @s[nbt={SelectedItem:{id:"minecraft:stone_pickaxe",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:fortune",lvl:1s}]}}}] run function nations:prospect/fortune/f1stone
+execute as @s[nbt={SelectedItem:{id:"minecraft:iron_pickaxe",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:fortune",lvl:1s}]}}}] run function nations:prospect/fortune/f1iron
+execute as @s[nbt={SelectedItem:{id:"minecraft:golden_pickaxe",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:fortune",lvl:1s}]}}}] run function nations:prospect/fortune/f1gold
+execute as @s[nbt={SelectedItem:{id:"minecraft:diamond_pickaxe",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:fortune",lvl:1s}]}}}] run function nations:prospect/fortune/f1diamond
+execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_pickaxe",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:fortune",lvl:1s}]}}}] run function nations:prospect/fortune/f1netherite
+execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_pickaxe",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:netherite_pickaxe",Count:1b,tag:{Enchantments:[{id:"minecraft:fortune"}]}}}] run enchant @s fortune 2
+execute as @s[nbt={SelectedItem:{id:"minecraft:wooden_pickaxe",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:wooden_pickaxe",Count:1b,tag:{Enchantments:[{id:"minecraft:fortune"}]}}}] run enchant @s fortune 2
+execute as @s[nbt={SelectedItem:{id:"minecraft:stone_pickaxe",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:stone_pickaxe",Count:1b,tag:{Enchantments:[{id:"minecraft:fortune"}]}}}] run enchant @s fortune 2
+execute as @s[nbt={SelectedItem:{id:"minecraft:iron_pickaxe",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:iron_pickaxe",Count:1b,tag:{Enchantments:[{id:"minecraft:fortune"}]}}}] run enchant @s fortune 2
+execute as @s[nbt={SelectedItem:{id:"minecraft:golden_pickaxe",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:golden_pickaxe",Count:1b,tag:{Enchantments:[{id:"minecraft:fortune"}]}}}] run enchant @s fortune 2
+execute as @s[nbt={SelectedItem:{id:"minecraft:diamond_pickaxe",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:diamond_pickaxe",Count:1b,tag:{Enchantments:[{id:"minecraft:fortune"}]}}}] run enchant @s fortune 2
+execute as @s[scores={TotalStone=4096..,TotalCoal=1024..,TotalIron=512..,TotalGold=256..,TotalLapis=128..,TotalDiamond=64..},tag=!Prospect5] run function nations:prospect/levelswitch/4-5

@@ -1,0 +1,1 @@
+execute as @s[scores={TotalStone=256..,TotalCoal=64..}] run function nations:prospect/levelswitch/r-1

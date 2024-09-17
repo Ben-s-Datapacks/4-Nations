@@ -1,0 +1,1 @@
+execute as @s[scores={SusStews=8..,BakePotato=64..}] run function nations:nurture/levelswitch/r-1

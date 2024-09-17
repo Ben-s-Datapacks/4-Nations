@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_pickaxe"
+      },
+      "title": "Drill Driver",
+      "description": "Dig out the tunnel for others to mine in.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "required:prospect/prospect3",
+    "criteria": {
+      "e": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

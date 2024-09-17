@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:wooden_pickaxe"
+      },
+      "title": "Cart Pusher",
+      "description": "Bring rocks back and forth.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "required:prospect/prospectbase",
+    "criteria": {
+      "e": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

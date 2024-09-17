@@ -1,0 +1,2 @@
+effect give @s resistance 11 0 true
+execute as @s[scores={DamageDone=72000..,DamageBlocked=16000..,4N_Kills=200..,TimeSinceDeath=96000..,PotionsDrunk=20..,DamageAbsorbed=100..},tag=!Conquest5] run function nations:conquest/levelswitch/4-5

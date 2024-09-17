@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:netherite_pickaxe"
+      },
+      "title": "Excavation Manager",
+      "description": "Oversee all processes happening at the mine.",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "required:prospect/prospect4",
+    "criteria": {
+      "e": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

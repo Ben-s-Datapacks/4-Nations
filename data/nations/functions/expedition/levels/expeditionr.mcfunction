@@ -1,0 +1,1 @@
+execute as @s[scores={TotalDistance=2000..,TimesSlept=3..}] run function nations:expedition/levelswitch/r-1

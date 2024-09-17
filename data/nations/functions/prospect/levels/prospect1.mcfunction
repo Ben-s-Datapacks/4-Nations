@@ -1,0 +1,7 @@
+execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_pickaxe",Count:1b}}] unless entity @s[nbt={SelectedItem:{tag:{Unbreakable:1b}}}] run function nations:prospect/unbreakables/unbreakablenetherite
+execute as @s[nbt={SelectedItem:{id:"minecraft:wooden_pickaxe",Count:1b}}] unless entity @s[nbt={SelectedItem:{tag:{Unbreakable:1b}}}] run function nations:prospect/unbreakables/unbreakablewood
+execute as @s[nbt={SelectedItem:{id:"minecraft:stone_pickaxe",Count:1b}}] unless entity @s[nbt={SelectedItem:{tag:{Unbreakable:1b}}}] run function nations:prospect/unbreakables/unbreakablestone
+execute as @s[nbt={SelectedItem:{id:"minecraft:iron_pickaxe",Count:1b}}] unless entity @s[nbt={SelectedItem:{tag:{Unbreakable:1b}}}] run function nations:prospect/unbreakables/unbreakableiron
+execute as @s[nbt={SelectedItem:{id:"minecraft:golden_pickaxe",Count:1b}}] unless entity @s[nbt={SelectedItem:{tag:{Unbreakable:1b}}}] run function nations:prospect/unbreakables/unbreakablegold
+execute as @s[nbt={SelectedItem:{id:"minecraft:diamond_pickaxe",Count:1b}}] unless entity @s[nbt={SelectedItem:{tag:{Unbreakable:1b}}}] run function nations:prospect/unbreakables/unbreakablediamond
+execute as @s[scores={TotalStone=512..,TotalCoal=128..,TotalIron=64..},tag=!Prospect2,tag=!Prospect4] run function nations:prospect/levelswitch/1-2

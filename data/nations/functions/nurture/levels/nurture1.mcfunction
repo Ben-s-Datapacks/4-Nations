@@ -1,0 +1,7 @@
+execute as @a[nbt={SelectedItem:{id:"minecraft:netherite_hoe",Count:1b}}] unless entity @s[nbt={SelectedItem:{tag:{Unbreakable:1b}}}] run function nations:nurture/unbreakables/unbreakablenetherite
+execute as @s[nbt={SelectedItem:{id:"minecraft:wooden_hoe",Count:1b}}] unless entity @s[nbt={SelectedItem:{tag:{Unbreakable:1b}}}] run function nations:nurture/unbreakables/unbreakablewood
+execute as @s[nbt={SelectedItem:{id:"minecraft:stone_hoe",Count:1b}}] unless entity @s[nbt={SelectedItem:{tag:{Unbreakable:1b}}}] run function nations:nurture/unbreakables/unbreakablestone
+execute as @s[nbt={SelectedItem:{id:"minecraft:iron_hoe",Count:1b}}] unless entity @s[nbt={SelectedItem:{tag:{Unbreakable:1b}}}] run function nations:nurture/unbreakables/unbreakableiron
+execute as @s[nbt={SelectedItem:{id:"minecraft:golden_hoe",Count:1b}}] unless entity @s[nbt={SelectedItem:{tag:{Unbreakable:1b}}}] run function nations:nurture/unbreakables/unbreakablegold
+execute as @s[nbt={SelectedItem:{id:"minecraft:diamond_hoe",Count:1b}}] unless entity @s[nbt={SelectedItem:{tag:{Unbreakable:1b}}}] run function nations:nurture/unbreakables/unbreakablediamond
+execute as @s[scores={BakePotato=128..,BreadMade=64..,SusStews=16..},tag=!Nurture2,tag=!Nurture5] run function nations:nurture/levelswitch/1-2

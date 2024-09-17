@@ -1,0 +1,2 @@
+execute as @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield",Count:1b}]}] unless entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:shield",Count:1b,tag:{Unbreakable:1b}}]}] run function nations:conquest/unbreakables/unbreakableshield
+execute as @s[scores={DamageDone=18000..,DamageBlocked=4000..,4N_Kills=50..,TimeSinceDeath=24000..},tag=!Conquest3] run function nations:conquest/levelswitch/2-3

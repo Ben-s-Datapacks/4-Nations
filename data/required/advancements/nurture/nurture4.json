@@ -1,0 +1,19 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:diamond_hoe"
+      },
+      "title": "Farm Financial Advisor",
+      "description": "Life isn't fair, but you know how to keep your peaceful life.",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "required:nurture/nurture3",
+    "criteria": {
+      "e": {
+        "trigger": "minecraft:impossible"
+      }
+    }
+  }

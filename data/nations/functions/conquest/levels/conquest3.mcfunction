@@ -1,0 +1,2 @@
+effect give @s strength 11 0 true
+execute as @s[scores={DamageDone=36000..,DamageBlocked=8000..,4N_Kills=100..,TimeSinceDeath=48000..,PotionsDrunk=10..},tag=!Conquest4] run function nations:conquest/levelswitch/3-4

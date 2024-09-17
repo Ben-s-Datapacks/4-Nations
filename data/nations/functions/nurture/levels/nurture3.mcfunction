@@ -1,0 +1,2 @@
+effect give @s regeneration 11 1 true
+execute as @s[tag=!Nurture4,scores={CookiesCrafted=32..,BakePotato=512..,BreadMade=256..,SusStews=64..,CakesCrafted=16..}] run function nations:nurture/levelswitch/3-4

@@ -1,0 +1,2 @@
+effect give @s speed 11 1 true
+execute as @s[scores={DistanceBoated=4000..,DistanceFallen=1000..,TotalDistance=32000..,TimesJumped=4800..,TimesSlept=48..,ItemsEnchanted=8..},tag=!Expedition5] run function nations:expedition/levelswitch/4-5

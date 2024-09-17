@@ -1,0 +1,7 @@
+execute as @s[nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:wooden_sword",Count:1b,tag:{Unbreakable:1b}}}] run function nations:conquest/unbreakables/unbreakablewood
+execute as @s[nbt={SelectedItem:{id:"minecraft:stone_sword",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:stone_sword",Count:1b,tag:{Unbreakable:1b}}}] run function nations:conquest/unbreakables/unbreakablestone
+execute as @s[nbt={SelectedItem:{id:"minecraft:iron_sword",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:iron_sword",Count:1b,tag:{Unbreakable:1b}}}] run function nations:conquest/unbreakables/unbreakableiron
+execute as @s[nbt={SelectedItem:{id:"minecraft:golden_sword",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:golden_sword",Count:1b,tag:{Unbreakable:1b}}}] run function nations:conquest/unbreakables/unbreakablegold
+execute as @s[nbt={SelectedItem:{id:"minecraft:diamond_sword",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:diamond_sword",Count:1b,tag:{Unbreakable:1b}}}] run function nations:conquest/unbreakables/unbreakablediamond
+execute as @s[nbt={SelectedItem:{id:"minecraft:netherite_sword",Count:1b}}] unless entity @s[nbt={SelectedItem:{id:"minecraft:netherite_sword",Count:1b,tag:{Unbreakable:1b}}}] run function nations:conquest/unbreakables/unbreakablenetherite
+execute as @s[scores={DamageDone=9000..,DamageBlocked=2000..,4N_Kills=25..},tag=!Conquest2] run function nations:conquest/levelswitch/1-2
